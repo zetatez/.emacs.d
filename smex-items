@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ color-theme-sanityinc-tomorrow-night
+ color-theme-sanityinc-tomorrow-bright
+ color-theme-sanityinc-tomorrow-blue
+ color-theme-sanityinc-solarized-light
+ color-theme-sanityinc-tomorrow-eighties
+ color-theme-sanityinc-tomorrow-day
  evil-mode
- view-file
- package-install
- text-mode
- neotree
- number-to-register
- exwm-exit
 )
 
 ;; ----- smex-data -----
@@ -17,13 +17,22 @@
  (pwd . 1)
  (erc-tls . 1)
  (find-file . 2)
- (evil-mode . 11)
- (package-install . 21)
+ (evil-mode . 16)
+ (package-install . 25)
  (quickrun . 1)
  (undo-tree-mode . 2)
  (exwm-exit . 1)
  (number-to-register . 1)
  (neotree . 1)
- (text-mode . 1)
+ (text-mode . 2)
  (view-file . 1)
+ (ansi-color-for-comint-mode-on . 1)
+ (color-theme-sanityinc-solarized-dark . 1)
+ (color-theme-sanityinc-tomorrow-bright . 12)
+ (color-theme-sanityinc-tomorrow-eighties . 6)
+ (color-theme-sanityinc-tomorrow-day . 2)
+ (eieio-browse . 1)
+ (color-theme-sanityinc-tomorrow-night . 6)
+ (color-theme-sanityinc-solarized-light . 4)
+ (color-theme-sanityinc-tomorrow-blue . 2)
 )

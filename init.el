@@ -1,3 +1,6 @@
+;---------------------------------------
+;---- EMACS ----------------------------
+;---------------------------------------
 
 ;-- initial-scratch-message
 (setq-default initial-scratch-message
@@ -11,13 +14,13 @@
 (fset 'yes-or-no-p 'y-or-n-p)
 
 ; (setq default-major-mode 'text-mode)
-; (setq default-major-mode 'evil-mode)
-
+(setq default-major-mode 'evil-mode)
 
 ;-- sources
 (setq package-archives '(("gnu" . "https://mirrors.sjtug.sjtu.edu.cn/emacs-elpa/gnu/")
                          ("melpa" . "https://mirrors.sjtug.sjtu.edu.cn/emacs-elpa/melpa/")))
 (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))                    ; for neotree
+(add-to-list 'package-archives '("marmalade" .  "http://marmalade-repo.org/packages"))       ; for color-theme
 (setq package-check-signatures nil)                                                          ; do not check signatures
 
 
@@ -197,16 +200,12 @@
 
 (require 'undo-tree)
 
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(package-selected-packages
-   '(license-snippets yaml-mode web-mode use-package undo-tree smex smart-mode-line selectric-mode scala-mode rtags rg restart-emacs realgud rainbow-mode quickrun popwin pipenv neotree multiple-cursors meghanada magit json-mode js2-mode ivy ht helm gruvbox-theme go-guru git-gutter find-file-in-project exwm expand-region evil-vimish-fold evil-surround evil-nerd-commenter evil-matchit evil-leader elpy crux company-tabnine color-theme-sanityinc-tomorrow color-theme-sanityinc-solarized avy auto-package-update auto-complete auctex adaptive-wrap ace-jump-mode)))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
+;-- color-theme
+;---------------------------------------------------------------------
+; (set-foreground-color "white")
+; (set-face-background 'region "black")
+; (set-background-color "black")
+; (set-face-foreground 'region "white")
+
+
+
