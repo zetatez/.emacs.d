@@ -1,0 +1,21 @@
+;;; -*- coding: utf-8; -*-
+;;; Automatically generated on Sat Nov  6 15:17:47 2021
+;;; Invoked by lorenzo@Arch using 27.2
+(setq-default kill-ring '(#("list-packages
+" 0 13 (fontified t) 13 14 (fontified t)) "(global-git-gutter-mode +1)
+" #(";; Happy hacking, lorenzo - Emacs ♥ you!
+
+" 0 3 (fontified t face font-lock-comment-delimiter-face) 3 40 (fontified t face font-lock-comment-face) 40 41 (fontified t) 41 42 (fontified t)) "(defconst *spell-check-support-enabled* nil) ;; Enable with t if you prefer
+(defconst *is-a-mac* (eq system-type 'darwin))
+"))
+(setq-default session-file-alist '(("~/.emacs.d/init.el" 2120 3969 1 nil nil 2120 (overwrite-mode)) ("~/.emacs.d/custom.el" 1 nil 1 nil nil 2729 (overwrite-mode))))
+(setq-default file-name-history '("~/.emacs.d/init.el" "~/.emacs.d/custom.el"))
+(setq-default search-ring '(#("yasnippets" 0 10 (isearch-regexp-function nil isearch-case-fold-search t))))
+(setq-default regexp-search-ring '(#("snip" 0 4 (isearch-case-fold-search t))))
+(setq-default command-history '((list-packages nil) (execute-extended-command nil "list-packages" nil) (execute-extended-command nil "list-packages" #("list-pac" 0 8 ...))))
+(setq-default extended-command-history '("list-packages"))
+(setq-default occur-collect-regexp-history '("\\1"))
+(setq-default serial-name-history '("/dev/ttyS0"))
+(setq-default serial-speed-history '("9600" "1200" "2400" "4800" "14400" "19200" "28800" "38400" "57600" "115200"))
+(setq-default slime-connect-host-history '("localhost"))
+(setq-default slime-connect-port-history '("4005"))
